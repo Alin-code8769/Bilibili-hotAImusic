@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>B站AI音乐爆款日报 2026-05-18</title>
+  <style>
+    :root { --bg:#f6f2ea; --card:#fffaf1; --ink:#241b16; --muted:#7a6a5e; --line:#e7d9c7; --red:#b92821; --orange:#dd7a1f; --gold:#c99830; --green:#3f7a56; --blue:#315b9a; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif; line-height:1.55; }
+    a { color:inherit; text-decoration:none; }
+    .wrap { max-width:1180px; margin:0 auto; padding:28px 18px 42px; }
+    header { padding:28px; border-radius:22px; background:linear-gradient(135deg,#351813,#a92922 54%,#e49a35); color:white; box-shadow:0 18px 45px rgba(90,35,18,.18); }
+    .eyebrow { font-size:13px; opacity:.86; letter-spacing:.08em; text-transform:uppercase; }
+    h1 { margin:8px 0 10px; font-size:clamp(30px,5vw,54px); line-height:1.05; letter-spacing:0; }
+    .lead { max-width:850px; margin:0; font-size:17px; opacity:.94; }
+    .meta { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; }
+    .pill { display:inline-flex; align-items:center; gap:6px; padding:7px 11px; border-radius:999px; background:rgba(255,255,255,.16); border:1px solid rgba(255,255,255,.22); font-size:13px; }
+    .section-title { margin:30px 0 14px; font-size:22px; }
+    .kpis { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; margin-top:18px; }
+    .kpi, .card, .table-card { background:var(--card); border:1px solid var(--line); border-radius:18px; box-shadow:0 10px 28px rgba(84,55,28,.08); }
+    .kpi { padding:18px; }
+    .kpi b { display:block; font-size:28px; line-height:1.1; margin-bottom:5px; color:var(--red); }
+    .kpi span { color:var(--muted); font-size:13px; }
+    .table-card { overflow:hidden; }
+    table { width:100%; border-collapse:collapse; font-size:14px; }
+    th, td { padding:12px 11px; text-align:left; border-bottom:1px solid var(--line); vertical-align:top; }
+    th { background:#fff2df; color:#5b3b2a; font-size:12px; position:sticky; top:0; }
+    td.num { white-space:nowrap; font-variant-numeric:tabular-nums; }
+    .tag { display:inline-block; padding:4px 8px; border-radius:999px; color:white; font-size:12px; white-space:nowrap; }
+    .hot { background:var(--red); }
+    .rise { background:var(--orange); }
+    .watch { background:var(--blue); }
+    .watch-cell { display:flex; flex-direction:column; gap:7px; align-items:flex-start; }
+    .watch-link { display:inline-flex; padding:6px 8px; border-radius:8px; background:#f1e4d1; color:#5b3b2a; font-size:12px; font-weight:700; white-space:nowrap; }
+    .type { color:#5a4639; font-size:13px; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .case { overflow:hidden; }
+    .case .thumb { display:block; position:relative; width:100%; aspect-ratio:16/9; background:#ead9c2; overflow:hidden; }
+    .case img { display:block; width:100%; height:100%; object-fit:cover; transition:transform .18s ease; }
+    .case .thumb:hover img { transform:scale(1.025); }
+    .play-badge { position:absolute; left:50%; top:50%; transform:translate(-50%,-50%); width:66px; height:66px; border-radius:50%; display:grid; place-items:center; color:white; background:rgba(185,40,33,.92); box-shadow:0 10px 30px rgba(0,0,0,.22); font-size:28px; }
+    .play-badge::before { content:""; margin-left:5px; width:0; height:0; border-top:13px solid transparent; border-bottom:13px solid transparent; border-left:20px solid white; }
+    .open-link { display:inline-flex; align-items:center; justify-content:center; margin-top:12px; padding:9px 12px; border-radius:10px; background:var(--red); color:white; font-weight:700; font-size:14px; }
+    .case-body { padding:16px; }
+    .case h3 { margin:0 0 8px; font-size:18px; line-height:1.25; }
+    .stats { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0 12px; }
+    .stat { padding:5px 8px; border-radius:8px; background:#f1e4d1; color:#604839; font-size:12px; }
+    .case p { margin:8px 0 0; color:#4a3b32; font-size:14px; }
+    .insights, .ideas { display:grid; gap:10px; margin:0; padding:0; list-style:none; }
+    .insights li, .ideas li { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:13px 15px; }
+    .ideas b { color:var(--red); }
+    .templates { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .template { padding:16px; }
+    .template h3 { margin:0 0 10px; font-size:18px; }
+    .template dl { display:grid; gap:8px; margin:0; }
+    .template div { display:grid; grid-template-columns:92px 1fr; gap:10px; }
+    .template dt { color:var(--muted); font-size:13px; font-weight:700; }
+    .template dd { margin:0; color:#44352d; font-size:14px; }
+    .radar { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .up { padding:16px; }
+    .up-head { display:flex; align-items:flex-start; justify-content:space-between; gap:12px; margin-bottom:10px; }
+    .up h3 { margin:0; font-size:18px; }
+    .priority { flex:0 0 auto; padding:4px 8px; border-radius:999px; background:#efe2cc; color:#6b4b2d; font-size:12px; font-weight:700; }
+    .priority.high { background:#ffe0dc; color:var(--red); }
+    .up p { margin:8px 0; color:#45362e; font-size:14px; }
+    .up-links { display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; }
+    .mini-link { display:inline-flex; padding:7px 9px; border-radius:9px; background:#f1e4d1; color:#563f31; font-size:13px; font-weight:700; }
+    footer { margin-top:24px; color:var(--muted); font-size:12px; text-align:center; }
+    @media (max-width:900px) { .kpis { grid-template-columns:repeat(2,minmax(0,1fr)); } .grid, .templates, .radar { grid-template-columns:1fr; } .table-card { overflow-x:auto; } table { min-width:980px; } }
+    @media (max-width:520px) { .wrap { padding:16px 12px 30px; } header { padding:22px; border-radius:18px; } .kpis { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow">Bilibili AI Music Daily</div>
+      <h1>B站AI音乐爆款日报</h1>
+      <p class="lead">今日结论：近 24 小时未稳定发现新发布即破 20w 的 AI 音乐视频，但“甜瓜宇宙”继续强势升温，说明“AI梗歌 + 系列MV + 固定人设”已经跑成可复用爆款模型。</p>
+      <div class="meta">
+        <span class="pill">日期：2026-05-18</span>
+        <span class="pill">口径：播放量 20w+</span>
+        <span class="pill">方向：AI音乐 / AI翻唱 / Suno / AI改编 / 方言与鬼畜二创</span>
+        <span class="pill">数据源：B站公开视频详情</span>
+      </div>
+    </header>
+
+    <section class="kpis">
+      <div class="kpi"><b>9</b><span>今日纳入重点观察视频</span></div>
+      <div class="kpi"><b>297.3w</b><span>最高播放：⚡瓜有点甜⚡</span></div>
+      <div class="kpi"><b>5.37w</b><span>最高分享：⚡瓜有点甜⚡</span></div>
+      <div class="kpi"><b>梗歌宇宙</b><span>今日最值得跟进方向</span></div>
+    </section>
+
+    <h2 class="section-title">爆款视频表</h2>
+    <section class="table-card">
+      <table>
+        <thead>
+          <tr>
+            <th>视频</th><th>UP主</th><th>发布时间</th><th>播放</th><th>点赞</th><th>投币</th><th>收藏</th><th>分享</th><th>评论</th><th>弹幕</th><th>内容类型</th><th>状态</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td><a href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">⚡瓜有点甜⚡</a></td><td>兰斯的画室LanceStudio</td><td>2026-05-07</td><td class="num">297.3w</td><td class="num">16.72w</td><td class="num">5.34w</td><td class="num">5.08w</td><td class="num">5.37w</td><td class="num">1.02w</td><td class="num">1.25w</td><td class="type">AI音乐二创 / 梗歌MV</td><td><div class="watch-cell"><span class="tag hot">升温</span><a class="watch-link" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank">⚡瓜有引力⚡《保熟的约定》番外MV</a></td><td>兰斯的画室LanceStudio</td><td>2026-05-10</td><td class="num">184.2w</td><td class="num">6.70w</td><td class="num">1.38w</td><td class="num">1.87w</td><td class="num">1.38w</td><td class="num">4394</td><td class="num">2300</td><td class="type">AI改编MV / 系列番外</td><td><div class="watch-cell"><span class="tag hot">升温</span><a class="watch-link" href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV1a3Q6BZEgi/" target="_blank">摇滚是对的！周杰伦《太阳之子》梦龙版</a></td><td>你是我的脸0</td><td>2026-03-25</td><td class="num">157.2w</td><td class="num">2.90w</td><td class="num">8993</td><td class="num">1.52w</td><td class="num">1.69w</td><td class="num">2441</td><td class="num">1166</td><td class="type">AI风格改编</td><td><div class="watch-cell"><span class="tag watch">持续观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV1a3Q6BZEgi/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV1jz421f7g2/" target="_blank">Suno AI改编摇滚《只因你太美》超燃</a></td><td>白日梦蓝蓝蓝蓝</td><td>2024-03-26</td><td class="num">131.4w</td><td class="num">3.55w</td><td class="num">1.08w</td><td class="num">2.63w</td><td class="num">2.04w</td><td class="num">1788</td><td class="num">888</td><td class="type">Suno / 鬼畜梗歌改编</td><td><div class="watch-cell"><span class="tag watch">持续观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV1jz421f7g2/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">《夜曲》周杰伦 AI翻唱 黑人大叔卖力演唱</a></td><td>八十万刁民总教头</td><td>2026-04-12</td><td class="num">96.8w</td><td class="num">4.36w</td><td class="num">2.56w</td><td class="num">3.62w</td><td class="num">1.01w</td><td class="num">1654</td><td class="num">806</td><td class="type">Suno V5.5 / AI翻唱</td><td><div class="watch-cell"><span class="tag rise">升温</span><a class="watch-link" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV1fe99YoEXH/" target="_blank">【AI翻唱】SEVENTEEN - 跳楼机</a></td><td>车厘子味的甜橘子</td><td>2025-03-08</td><td class="num">48.1w</td><td class="num">2.65w</td><td class="num">8766</td><td class="num">1.98w</td><td class="num">4117</td><td class="num">439</td><td class="num">701</td><td class="type">K-pop群像 AI Cover</td><td><div class="watch-cell"><span class="tag watch">持续观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV1fe99YoEXH/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV1oXzmBfEoA/" target="_blank">周杰伦-花海-黑人福音版</a></td><td>盗梦三原色</td><td>2026-01-25</td><td class="num">36.4w</td><td class="num">5968</td><td class="num">2843</td><td class="num">7920</td><td class="num">1730</td><td class="num">429</td><td class="num">207</td><td class="type">Suno V5 / 风格改编</td><td><div class="watch-cell"><span class="tag watch">持续观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV1oXzmBfEoA/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV1m9dMBCE7u/" target="_blank">《心愿便利贴》朝鲜版改编《太阳功勋章》有力气版</a></td><td>柠小檬Max</td><td>2026-05-08</td><td class="num">30.5w</td><td class="num">1.07w</td><td class="num">4032</td><td class="num">4247</td><td class="num">4911</td><td class="num">789</td><td class="num">608</td><td class="type">AI/风格化改编</td><td><div class="watch-cell"><span class="tag rise">升温</span><a class="watch-link" href="https://www.bilibili.com/video/BV1m9dMBCE7u/" target="_blank">打开视频</a></div></td></tr>
+          <tr><td><a href="https://www.bilibili.com/video/BV17DdbYoE4c/" target="_blank">【AI初华】《上海滩》</a></td><td>路边墨缇斯</td><td>2025-04-09</td><td class="num">25.3w</td><td class="num">4198</td><td class="num">795</td><td class="num">2347</td><td class="num">891</td><td class="num">287</td><td class="num">39</td><td class="type">AI声线翻唱</td><td><div class="watch-cell"><span class="tag watch">持续观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV17DdbYoE4c/" target="_blank">打开视频</a></div></td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <h2 class="section-title">重点 Case</h2>
+    <section class="grid">
+      <article class="card case">
+        <a class="thumb" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank" aria-label="去B站播放：⚡瓜有点甜⚡">
+          <img src="https://i0.hdslb.com/bfs/archive/2a8dd1b6493b03af1e86dea69d03a61cb95c0778.jpg" alt="⚡瓜有点甜⚡封面">
+          <span class="play-badge" aria-hidden="true"></span>
+        </a>
+        <div class="case-body">
+          <h3><a href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">⚡瓜有点甜⚡</a></h3>
+          <div class="stats"><span class="stat">297.3w播放</span><span class="stat">5.37w分享</span><span class="stat">1.25w弹幕</span></div>
+          <p><b>爆点：</b>把“华强买瓜”老梗升级成完整 AI 歌曲和 MV，人设、标题符号、旋律记忆点都很强。</p>
+          <p><b>可复用：</b>老梗人物 + 情歌/甜歌反差 + 系列宇宙命名。</p>
+          <a class="open-link" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">去 B 站播放</a>
+        </div>
+      </article>
+      <article class="card case">
+        <a class="thumb" href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank" aria-label="去B站播放：⚡瓜有引力⚡">
+          <img src="https://i0.hdslb.com/bfs/archive/515f52daae4b3d129ef164a25c87bb9e13d6c762.jpg" alt="⚡瓜有引力⚡封面">
+          <span class="play-badge" aria-hidden="true"></span>
+        </a>
+        <div class="case-body">
+          <h3><a href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank">⚡瓜有引力⚡</a></h3>
+          <div class="stats"><span class="stat">184.2w播放</span><span class="stat">6.70w赞</span><span class="stat">番外MV</span></div>
+          <p><b>爆点：</b>前作爆后迅速做番外，把单条热度接成连续剧，用户会追“下一首”。</p>
+          <p><b>可复用：</b>爆款后 3-7 天内出续集，用同一人物关系换歌名梗。</p>
+          <a class="open-link" href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank">去 B 站播放</a>
+        </div>
+      </article>
+      <article class="card case">
+        <a class="thumb" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank" aria-label="去B站播放：《夜曲》黑人大叔版">
+          <img src="https://i0.hdslb.com/bfs/archive/7e9a8c3423ebb406f7cb0f2847c0259919bae6e8.jpg" alt="《夜曲》黑人大叔版封面">
+          <span class="play-badge" aria-hidden="true"></span>
+        </a>
+        <div class="case-body">
+          <h3><a href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">《夜曲》黑人大叔版</a></h3>
+          <div class="stats"><span class="stat">96.8w播放</span><span class="stat">2.56w投币</span><span class="stat">3.62w收藏</span></div>
+          <p><b>爆点：</b>周杰伦经典歌和强视觉人物反差相加，标题自带画面感。</p>
+          <p><b>可复用：</b>华语经典 + 海外唱腔/福音/摇滚/军乐等极端风格。</p>
+          <a class="open-link" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">去 B 站播放</a>
+        </div>
+      </article>
+    </section>
+
+    <h2 class="section-title">今日洞察</h2>
+    <ul class="insights">
+      <li>今天最强信号不是“某种音乐风格”，而是“老梗被做成连续 MV 宇宙”：甜瓜系列两条视频合计超过 480w 播放，说明可追更的人设关系比单条 AI Cover 更抗衰减。</li>
+      <li>分享量最高的内容有一个共同点：标题一眼能复述。比如“瓜有点甜”“瓜有引力”“夜曲黑人大叔版”，都能在转发时自动变成一句梗。</li>
+      <li>高收藏样本集中在听感复播价值强的 AI Cover / 风格改编；高分享样本集中在反差强、能截图传播的梗歌 MV。</li>
+      <li>工具名不是爆点本身。Suno、AI Cover 只是生产方式，真正让用户点开的是“熟悉旋律 + 意外人设/唱腔/剧情”。</li>
+      <li>近期更值得押注“视频包装模板”而不是单首歌：固定标题符号、固定角色、固定片头和番外机制，能把爆款延展成栏目。</li>
+    </ul>
+
+    <h2 class="section-title">AI音乐UP主雷达</h2>
+    <section class="radar">
+      <article class="card up">
+        <div class="up-head"><h3>兰斯的画室LanceStudio</h3><span class="priority high">重点关注</span></div>
+        <p><b>定位：</b>AI梗歌 MV / 角色宇宙 / 整活叙事。</p>
+        <p><b>代表视频：</b>《⚡瓜有点甜⚡》297.3w播放，《⚡瓜有引力⚡》184.2w播放。</p>
+        <p><b>可借鉴：</b>把老梗人物关系做成连续音乐宇宙，标题符号化，适合追更和番外。</p>
+        <div class="up-links">
+          <a class="mini-link" href="https://space.bilibili.com/82206016" target="_blank">主页</a>
+          <a class="mini-link" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">代表作</a>
+        </div>
+      </article>
+
+      <article class="card up">
+        <div class="up-head"><h3>八十万刁民总教头</h3><span class="priority high">重点关注</span></div>
+        <p><b>定位：</b>Suno / AI翻唱 / 强反差唱腔改编。</p>
+        <p><b>代表视频：</b>《夜曲》黑人大叔卖力演唱，96.8w播放，投币和收藏都很高。</p>
+        <p><b>可借鉴：</b>经典华语歌曲 + 极强人物画面感 + 标题自带剧情，适合做“名曲异域唱腔”系列。</p>
+        <div class="up-links">
+          <a class="mini-link" href="https://space.bilibili.com/14630781" target="_blank">主页</a>
+          <a class="mini-link" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">代表作</a>
+        </div>
+      </article>
+
+      <article class="card up">
+        <div class="up-head"><h3>你是我的脸0</h3><span class="priority high">重点关注</span></div>
+        <p><b>定位：</b>热门歌手/热歌的风格化重编。</p>
+        <p><b>代表视频：</b>《太阳之子》梦龙版，157.2w播放，分享 1.69w。</p>
+        <p><b>可借鉴：</b>标题直给“原曲 + 目标乐队/风格”，让用户一秒理解改编爽点。</p>
+        <div class="up-links">
+          <a class="mini-link" href="https://space.bilibili.com/3546744814439296" target="_blank">主页</a>
+          <a class="mini-link" href="https://www.bilibili.com/video/BV1a3Q6BZEgi/" target="_blank">代表作</a>
+        </div>
+      </article>
+
+      <article class="card up">
+        <div class="up-head"><h3>白日梦蓝蓝蓝蓝</h3><span class="priority">持续观察</span></div>
+        <p><b>定位：</b>Suno 鬼畜神曲改编 / 梗歌摇滚化。</p>
+        <p><b>代表视频：</b>《只因你太美》摇滚改编，131.4w播放，分享 2.04w。</p>
+        <p><b>可借鉴：</b>把老牌鬼畜曲做“正经燃曲化”，既保留梗，又提升听感完成度。</p>
+        <div class="up-links">
+          <a class="mini-link" href="https://space.bilibili.com/37232054" target="_blank">主页</a>
+          <a class="mini-link" href="https://www.bilibili.com/video/BV1jz421f7g2/" target="_blank">代表作</a>
+        </div>
+      </article>
+
+      <article class="card up">
+        <div class="up-head"><h3>车厘子味的甜橘子</h3><span class="priority">持续观察</span></div>
+        <p><b>定位：</b>K-pop / 团体声线 AI Cover。</p>
+        <p><b>代表视频：</b>SEVENTEEN《跳楼机》AI翻唱，48.1w播放，收藏接近 2w。</p>
+        <p><b>可借鉴：</b>多人声线分 part 能制造粉丝讨论，适合收藏复播和评论争论。</p>
+        <div class="up-links">
+          <a class="mini-link" href="https://space.bilibili.com/3493270805104687" target="_blank">主页</a>
+          <a class="mini-link" href="https://www.bilibili.com/video/BV1fe99YoEXH/" target="_blank">代表作</a>
+        </div>
+      </article>
+
+      <article class="card up">
+        <div class="up-head"><h3>柠小檬Max</h3><span class="priority">持续观察</span></div>
+        <p><b>定位：</b>AI风格化改编 / 反差整活。</p>
+        <p><b>代表视频：</b>《心愿便利贴》朝鲜版改编，30.5w播放，分享 4911。</p>
+        <p><b>可借鉴：</b>甜歌和严肃军乐审美的极端错位，适合套用到更多高识别偶像剧 OST。</p>
+        <div class="up-links">
+          <a class="mini-link" href="https://space.bilibili.com/340307045" target="_blank">主页</a>
+          <a class="mini-link" href="https://www.bilibili.com/video/BV1m9dMBCE7u/" target="_blank">代表作</a>
+        </div>
+      </article>
+    </section>
+
+    <h2 class="section-title">可跟进选题建议</h2>
+    <ul class="ideas">
+      <li><b>甜瓜宇宙对标玩法：</b>选择一个 B 站老梗人物或高识别影视片段，先做“主题曲”，再做“番外 MV”。标题用短符号化结构，例如“⚡XX有点甜⚡”“⚡XX有引力⚡”。</li>
+      <li><b>热门歌曲异域唱腔版：</b>延续《夜曲》黑人大叔版、《花海》黑人福音版路径，优先选周杰伦、五月天、汪苏泷等高识别旋律，标题直接写清“原歌名 + 反差唱腔”。</li>
+      <li><b>新热歌快速换壳：</b>对近一周 B 站热搜/音乐区高频出现的新歌做 3 个版本横评：福音版、摇滚版、军乐版。视频结构做成“同一副歌连播对比”。</li>
+      <li><b>爆款评论二创成歌：</b>抓热门视频评论区的高赞金句，把评论写成歌词，用 AI 生成 60-90 秒短 MV，标题强调“把评论区唱出来了”。</li>
+      <li><b>粉丝圈层 AI 群像：</b>参考 SEVENTEEN AI 翻唱，针对二次元、K-pop、游戏角色做多人声线接力。重点不是像不像，而是“分part”和“谁唱哪句”的讨论空间。</li>
+      <li><b>旧梗新歌续集：</b>对已经爆过的梗歌做“番外/后传/宇宙篇”，在标题里标明“番外MV”“第二首”“同频篇”，吃追更和考古流量。</li>
+    </ul>
+
+    <h2 class="section-title">可固定成玩法的视频模板</h2>
+    <section class="templates">
+      <article class="card template">
+        <h3>模板 A：爆款梗续集番外 MV</h3>
+        <dl>
+          <div><dt>适用热点</dt><dd>甜瓜宇宙、华强买瓜、影视老梗、鬼畜人物关系。</dd></div>
+          <div><dt>视频结构</dt><dd>15 秒复现老梗关系 → 副歌改编 → 人物剧情反转 → 结尾预告下一首。</dd></div>
+          <div><dt>标题公式</dt><dd>⚡[梗核心词]有[情绪词]⚡ / 《[爆款歌名改写]》番外MV。</dd></div>
+          <div><dt>复用原因</dt><dd>用户先被熟梗吸引，再通过番外机制形成追更。</dd></div>
+          <div><dt>下一条示例</dt><dd>“⚡保熟的夏天⚡”或“《瓜有引力》第二番外：摊主的约定”。</dd></div>
+        </dl>
+      </article>
+
+      <article class="card template">
+        <h3>模板 B：热歌异域唱腔版</h3>
+        <dl>
+          <div><dt>适用热点</dt><dd>周杰伦老歌、B站跨晚热歌、近期音乐区高频翻唱曲。</dd></div>
+          <div><dt>视频结构</dt><dd>原曲一句唤醒记忆 → 反差唱腔进入 → 高潮段字幕强调风格变化。</dd></div>
+          <div><dt>标题公式</dt><dd>[歌名] 但是 [黑人福音/梦龙/军乐/老派摇滚] 版。</dd></div>
+          <div><dt>复用原因</dt><dd>用户不用理解 AI 技术，只要判断“这歌这样唱居然行不行”。</dd></div>
+          <div><dt>下一条示例</dt><dd>《晴天》但是 80 年代体育场摇滚版；《突然好想你》但是黑人福音合唱版。</dd></div>
+        </dl>
+      </article>
+
+      <article class="card template">
+        <h3>模板 C：评论区金句唱出来</h3>
+        <dl>
+          <div><dt>适用热点</dt><dd>高赞评论密集的视频、热搜事件、抽象梗楼。</dd></div>
+          <div><dt>视频结构</dt><dd>展示 3 条高赞评论 → AI 把评论串成歌词 → 副歌重复最强金句。</dd></div>
+          <div><dt>标题公式</dt><dd>我把这个视频的评论区唱成了一首歌。</dd></div>
+          <div><dt>复用原因</dt><dd>天然带评论区参与感，观众会继续投稿下一句歌词。</dd></div>
+          <div><dt>下一条示例</dt><dd>“把《瓜有点甜》的评论区唱成续集主题曲”。</dd></div>
+        </dl>
+      </article>
+
+      <article class="card template">
+        <h3>模板 D：AI 群像分 Part 接力</h3>
+        <dl>
+          <div><dt>适用热点</dt><dd>K-pop 团体、游戏角色、番剧角色、虚拟歌手。</dd></div>
+          <div><dt>视频结构</dt><dd>成员/角色逐个进歌 → 副歌全员合唱 → 弹幕投票谁最适合下一句。</dd></div>
+          <div><dt>标题公式</dt><dd>[团体/角色群] AI Cover《[歌名]》｜全员分part版。</dd></div>
+          <div><dt>复用原因</dt><dd>粉丝会围绕声线、分part和角色适配度讨论，收藏复播强。</dd></div>
+          <div><dt>下一条示例</dt><dd>“热门游戏角色全员翻唱一首跨晚热歌”。</dd></div>
+        </dl>
+      </article>
+
+      <article class="card template">
+        <h3>模板 E：同一副歌三连风格测评</h3>
+        <dl>
+          <div><dt>适用热点</dt><dd>任何上升期热歌、新发布歌曲、影视OST。</dd></div>
+          <div><dt>视频结构</dt><dd>同一副歌 15 秒原版感 → 15 秒摇滚 → 15 秒福音 → 15 秒军乐/电子，结尾让弹幕投票。</dd></div>
+          <div><dt>标题公式</dt><dd>同一首歌换 3 种 AI 风格，哪版最上头？</dd></div>
+          <div><dt>复用原因</dt><dd>低成本系列化，天然适配弹幕投票和评论争论。</dd></div>
+          <div><dt>下一条示例</dt><dd>“《太阳之子》三连：梦龙版 / 福音版 / 电影预告版”。</dd></div>
+        </dl>
+      </article>
+
+      <article class="card template">
+        <h3>模板 F：热点事件歌词化</h3>
+        <dl>
+          <div><dt>适用热点</dt><dd>B站热搜、站内大型活动、跨晚名场面、UP主联动事件。</dd></div>
+          <div><dt>视频结构</dt><dd>事件关键词上屏 → 旋律化总结 → 关键梗押韵重复 → 评论区征集下一期事件。</dd></div>
+          <div><dt>标题公式</dt><dd>用 AI 把今天 B 站热搜写成一首歌。</dd></div>
+          <div><dt>复用原因</dt><dd>每天都能生产，和日报/热点观察天然联动。</dd></div>
+          <div><dt>下一条示例</dt><dd>“把 B 站音乐区今日热搜写成 90 秒热歌”。</dd></div>
+        </dl>
+      </article>
+    </section>
+
+    <footer>生成时间：2026-05-18 10:01（Asia/Shanghai）。数据为公开视频接口可见值，后续可能变化。</footer>
+  </main>
+</body>
+</html>

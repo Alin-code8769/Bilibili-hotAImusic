@@ -1,0 +1,13 @@
+{
+  "date": "2026-05-18",
+  "title": "B站AI音乐爆款日报",
+  "summary": "近 24 小时未稳定发现新发布即破 20w 的 AI 音乐视频，但“甜瓜宇宙”继续强势升温，说明“AI梗歌 + 系列MV + 固定人设”已经跑成可复用爆款模型。",
+  "reportUrl": "./reports/2026-05-18.html",
+  "dataUrl": "./data/2026-05-18.json",
+  "kpis": {
+    "trackedVideos": 9,
+    "topView": "297.3w",
+    "topShare": "5.37w",
+    "focus": "梗歌宇宙"
+  }
+}

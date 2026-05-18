@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-05-18T10:01:00+08:00",
+  "reports": [
+    {
+      "date": "2026-05-18",
+      "title": "B站AI音乐爆款日报",
+      "summary": "甜瓜宇宙继续强势升温，AI梗歌 + 系列MV + 固定人设跑成可复用爆款模型。",
+      "reportUrl": "./reports/2026-05-18.html",
+      "dataUrl": "./data/2026-05-18.json"
+    }
+  ]
+}

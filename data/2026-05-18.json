@@ -1,0 +1,77 @@
+{
+  "date": "2026-05-18",
+  "scope": "B站 AI 音乐 / AI翻唱 / Suno / AI改编 / 鬼畜整活，播放量 20w+",
+  "summary": "近 24 小时未稳定发现新发布即破 20w 的 AI 音乐视频，但“甜瓜宇宙”继续强势升温。",
+  "videos": [
+    {
+      "title": "⚡瓜有点甜⚡",
+      "bvid": "BV1xbRhBKEfn",
+      "url": "https://www.bilibili.com/video/BV1xbRhBKEfn/",
+      "up": "兰斯的画室LanceStudio",
+      "pubdate": "2026-05-07",
+      "views": 2973009,
+      "likes": 167242,
+      "coins": 53426,
+      "favorites": 50758,
+      "shares": 53699,
+      "replies": 10202,
+      "danmaku": 12483,
+      "type": "AI音乐二创 / 梗歌MV",
+      "status": "升温"
+    },
+    {
+      "title": "⚡瓜有引力⚡《保熟的约定》番外MV",
+      "bvid": "BV1Km576NEfy",
+      "url": "https://www.bilibili.com/video/BV1Km576NEfy/",
+      "up": "兰斯的画室LanceStudio",
+      "pubdate": "2026-05-10",
+      "views": 1841570,
+      "likes": 66981,
+      "coins": 13804,
+      "favorites": 18681,
+      "shares": 13806,
+      "replies": 4394,
+      "danmaku": 2300,
+      "type": "AI改编MV / 系列番外",
+      "status": "升温"
+    },
+    {
+      "title": "摇滚是对的！周杰伦《太阳之子》梦龙版",
+      "bvid": "BV1a3Q6BZEgi",
+      "url": "https://www.bilibili.com/video/BV1a3Q6BZEgi/",
+      "up": "你是我的脸0",
+      "pubdate": "2026-03-25",
+      "views": 1572183,
+      "likes": 28991,
+      "coins": 8993,
+      "favorites": 15151,
+      "shares": 16886,
+      "replies": 2441,
+      "danmaku": 1166,
+      "type": "AI风格改编",
+      "status": "持续观察"
+    }
+  ],
+  "upRadar": [
+    {
+      "name": "兰斯的画室LanceStudio",
+      "spaceUrl": "https://space.bilibili.com/82206016",
+      "positioning": "AI梗歌 MV / 角色宇宙 / 整活叙事",
+      "priority": "重点关注"
+    },
+    {
+      "name": "八十万刁民总教头",
+      "spaceUrl": "https://space.bilibili.com/14630781",
+      "positioning": "Suno / AI翻唱 / 强反差唱腔改编",
+      "priority": "重点关注"
+    }
+  ],
+  "templates": [
+    "爆款梗续集番外 MV",
+    "热歌异域唱腔版",
+    "评论区金句唱出来",
+    "AI 群像分 Part 接力",
+    "同一副歌三连风格测评",
+    "热点事件歌词化"
+  ]
+}

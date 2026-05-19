@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-05-18T10:01:00+08:00",
+  "updatedAt": "2026-05-19T10:01:00+08:00",
   "reports": [
+    {
+      "date": "2026-05-19",
+      "title": "B站AI音乐爆款日报",
+      "summary": "AI 音乐热点从单首翻唱继续外扩到游戏 IP 战歌、角色剧情歌和 AI 拟人群像。",
+      "reportUrl": "./reports/2026-05-19.html",
+      "dataUrl": "./data/2026-05-19.json"
+    },
     {
       "date": "2026-05-18",
       "title": "B站AI音乐爆款日报",

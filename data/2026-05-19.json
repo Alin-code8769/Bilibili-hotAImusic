@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-19",
+  "scope": "B站 AI 音乐 / AI翻唱 / Suno / AI改编 / 游戏IP / 梗歌MV，播放量 20w+",
+  "summary": "AI 音乐热点从单首翻唱继续外扩到游戏 IP 战歌、角色剧情歌和 AI 拟人群像。",
+  "kpis": {
+    "trackedVideos": 10,
+    "topView": "299.4w",
+    "topShare": "5.40w",
+    "focus": "IP战歌化"
+  },
+  "videos": [
+    {"title":"⚡瓜有点甜⚡","bvid":"BV1xbRhBKEfn","url":"https://www.bilibili.com/video/BV1xbRhBKEfn/","up":"兰斯的画室LanceStudio","views":2994055,"type":"AI梗歌MV / 系列宇宙","status":"升温"},
+    {"title":"「星际和平公司」必修曲目：筑！筑！筑！","bvid":"BV1DzDxBJET2","url":"https://www.bilibili.com/video/BV1DzDxBJET2/","up":"复利大叔","views":664677,"type":"游戏IP / Suno原创战歌","status":"新增关注"},
+    {"title":"【终末地】洛茜：《说书人》","bvid":"BV1Fu97BUEL7","url":"https://www.bilibili.com/video/BV1Fu97BUEL7/","up":"寒水老N","views":423088,"type":"游戏角色剧情歌 / Suno改编","status":"新增关注"},
+    {"title":"【2026六大LLM联唱】稳稳地接住你（原创）","bvid":"BV15uRbBGE44","url":"https://www.bilibili.com/video/BV15uRbBGE44/","up":"万童Official","views":212590,"type":"AI拟人群像 / Suno原创","status":"新增关注"}
+  ],
+  "upRadar": [
+    {"name":"复利大叔","spaceUrl":"https://space.bilibili.com/4658735","positioning":"游戏 IP 世界观歌曲化 / Suno 原创","priority":"重点关注"},
+    {"name":"寒水老N","spaceUrl":"https://space.bilibili.com/498384383","positioning":"游戏角色剧情歌 / 改词剪辑 / Suno 编曲","priority":"重点关注"},
+    {"name":"兰斯的画室LanceStudio","spaceUrl":"https://space.bilibili.com/3546866685839722","positioning":"AI梗歌 MV / 角色宇宙 / 整活叙事","priority":"重点关注"},
+    {"name":"万童Official","spaceUrl":"https://space.bilibili.com/1932040601","positioning":"AI模型人格化 / LLM合唱 / 原创 AI 歌曲","priority":"持续观察"}
+  ],
+  "templates": ["IP 阵营战歌", "新游角色剧情歌", "AI 模型拟人联唱", "爆款梗续集番外 MV"]
+}

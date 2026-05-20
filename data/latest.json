@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-19",
+  "date": "2026-05-20",
   "title": "B站AI音乐爆款日报",
-  "summary": "AI 音乐热点从单首翻唱继续外扩到游戏 IP 战歌、角色剧情歌和 AI 拟人群像。",
-  "reportUrl": "./reports/2026-05-19.html",
-  "dataUrl": "./data/2026-05-19.json",
+  "summary": "AI音乐头部爆款出现三条明确路径：AI歌手声线复刻、AI春晚/AI艺人大事件舞台化、梗歌宇宙和游戏IP战歌。",
+  "reportUrl": "./reports/2026-05-20.html",
+  "dataUrl": "./data/2026-05-20.json",
   "kpis": {
-    "trackedVideos": 10,
-    "topView": "299.4w",
-    "topShare": "5.40w",
-    "focus": "IP战歌化"
+    "trackedVideos": 9,
+    "topView": "1153.6w",
+    "topShare": "14.83w",
+    "focus": "舞台化/栏目化"
   }
 }

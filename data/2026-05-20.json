@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-20",
+  "scope": "B站 AI 音乐 / AI翻唱 / AI春晚 / AI艺人 / Suno / 梗歌MV，播放量 20w+",
+  "summary": "AI音乐头部爆款出现三条明确路径：AI歌手声线复刻、AI春晚/AI艺人大事件舞台化、梗歌宇宙和游戏IP战歌。",
+  "kpis": {
+    "trackedVideos": 9,
+    "topView": "1153.6w",
+    "topShare": "14.83w",
+    "focus": "舞台化/栏目化"
+  },
+  "videos": [
+    {"title":"B站首届AI春晚！","bvid":"BV1duFrztESM","url":"https://www.bilibili.com/video/BV1duFrztESM/","up":"秋芝2046","views":11536484,"type":"AI春晚 / 大事件舞台","status":"头部标杆"},
+    {"title":"【AI 周杰伦】《那天下雨了》+5Key 升调版","bvid":"BV1daQ1BUEm2","url":"https://www.bilibili.com/video/BV1daQ1BUEm2/","up":"Eternity-Li","views":7861606,"type":"AI声线复刻 / 周杰伦新歌二创","status":"头部标杆"},
+    {"title":"⚡瓜有点甜⚡","bvid":"BV1xbRhBKEfn","url":"https://www.bilibili.com/video/BV1xbRhBKEfn/","up":"兰斯的画室LanceStudio","views":3015812,"type":"AI梗歌MV / 系列宇宙","status":"升温"},
+    {"title":"50分钟！AI艺人专场演唱会来自虚拟艺人六六","bvid":"BV1BE6xBqEM8","url":"https://www.bilibili.com/video/BV1BE6xBqEM8/","up":"虚拟艺人六六","views":704105,"type":"AI艺人 / 虚拟偶像演唱会","status":"头部观察"}
+  ],
+  "upRadar": [
+    {"name":"Eternity-Li","spaceUrl":"https://space.bilibili.com/352117879","positioning":"AI歌手声线复刻 / 周杰伦二创","priority":"重点关注"},
+    {"name":"秋芝2046","spaceUrl":"https://space.bilibili.com/385670211","positioning":"AI大事件组织 / AI春晚 / 综合节目编排","priority":"重点关注"},
+    {"name":"虚拟艺人六六","spaceUrl":"https://space.bilibili.com/2119696622","positioning":"AI虚拟艺人 / 长视频演唱会 / 粉丝运营","priority":"重点关注"},
+    {"name":"兰斯的画室LanceStudio","spaceUrl":"https://space.bilibili.com/3546866685839722","positioning":"AI梗歌 MV / 角色宇宙 / 整活叙事","priority":"重点关注"}
+  ],
+  "templates": ["AI音乐晚会/榜单化", "新歌 AI 声线补完", "虚拟艺人专场", "IP 阵营战歌"]
+}

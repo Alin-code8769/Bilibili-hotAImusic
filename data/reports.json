@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-05-19T10:01:00+08:00",
+  "updatedAt": "2026-05-20T10:01:00+08:00",
   "reports": [
+    {
+      "date": "2026-05-20",
+      "title": "B站AI音乐爆款日报",
+      "summary": "AI音乐头部爆款出现三条明确路径：AI歌手声线复刻、AI春晚/AI艺人大事件舞台化、梗歌宇宙和游戏IP战歌。",
+      "reportUrl": "./reports/2026-05-20.html",
+      "dataUrl": "./data/2026-05-20.json"
+    },
     {
       "date": "2026-05-19",
       "title": "B站AI音乐爆款日报",

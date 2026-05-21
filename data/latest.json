@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-20",
+  "date": "2026-05-21",
   "title": "B站AI音乐爆款日报",
-  "summary": "AI音乐头部爆款出现三条明确路径：AI歌手声线复刻、AI春晚/AI艺人大事件舞台化、梗歌宇宙和游戏IP战歌。",
-  "reportUrl": "./reports/2026-05-20.html",
-  "dataUrl": "./data/2026-05-20.json",
+  "summary": "AI音乐头部格局继续稳定，《夜曲》黑人大叔版突破百万，经典歌反差翻唱证明可持续长尾。",
+  "reportUrl": "./reports/2026-05-21.html",
+  "dataUrl": "./data/2026-05-21.json",
   "kpis": {
-    "trackedVideos": 9,
-    "topView": "1153.6w",
-    "topShare": "14.83w",
-    "focus": "舞台化/栏目化"
+    "trackedVideos": 10,
+    "topView": "1153.7w",
+    "topShare": "14.84w",
+    "focus": "经典歌反差翻唱"
   }
 }

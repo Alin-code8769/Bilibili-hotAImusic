@@ -1,0 +1,24 @@
+{
+  "date": "2026-05-21",
+  "scope": "B站 AI 音乐 / AI翻唱 / AI春晚 / AI艺人 / Suno / 梗歌MV，播放量 20w+",
+  "summary": "AI音乐头部格局继续稳定，《夜曲》黑人大叔版突破百万，经典歌反差翻唱证明可持续长尾。",
+  "kpis": {
+    "trackedVideos": 10,
+    "topView": "1153.7w",
+    "topShare": "14.84w",
+    "focus": "经典歌反差翻唱"
+  },
+  "videos": [
+    {"title":"B站首届AI春晚！","bvid":"BV1duFrztESM","url":"https://www.bilibili.com/video/BV1duFrztESM/","up":"秋芝2046","views":11537394,"type":"AI春晚 / 大事件舞台","status":"头部标杆"},
+    {"title":"【AI 周杰伦】《那天下雨了》+5Key 升调版","bvid":"BV1daQ1BUEm2","url":"https://www.bilibili.com/video/BV1daQ1BUEm2/","up":"Eternity-Li","views":7885761,"type":"AI声线复刻 / 周杰伦新歌二创","status":"头部标杆"},
+    {"title":"《夜曲》周杰伦 AI翻唱 黑人大叔卖力演唱","bvid":"BV15dDSBdEur","url":"https://www.bilibili.com/video/BV15dDSBdEur/","up":"八十万刁民总教头","views":1001377,"type":"Suno V5.5 / 经典歌反差翻唱","status":"破百万"},
+    {"title":"⚡瓜有点甜⚡","bvid":"BV1xbRhBKEfn","url":"https://www.bilibili.com/video/BV1xbRhBKEfn/","up":"兰斯的画室LanceStudio","views":3041249,"type":"AI梗歌MV / 系列宇宙","status":"升温"}
+  ],
+  "upRadar": [
+    {"name":"Eternity-Li","spaceUrl":"https://space.bilibili.com/352117879","positioning":"AI歌手声线复刻 / 周杰伦二创","priority":"重点关注"},
+    {"name":"八十万刁民总教头","spaceUrl":"https://space.bilibili.com/1390382993","positioning":"Suno / 经典歌反差唱腔改编","priority":"重点关注"},
+    {"name":"秋芝2046","spaceUrl":"https://space.bilibili.com/385670211","positioning":"AI大事件组织 / AI春晚 / 综合节目编排","priority":"重点关注"},
+    {"name":"虚拟艺人六六","spaceUrl":"https://space.bilibili.com/2119696622","positioning":"AI虚拟艺人 / 长视频演唱会 / 粉丝运营","priority":"重点关注"}
+  ],
+  "templates": ["经典歌反差唱腔", "新歌 AI 声线补完", "虚拟艺人专场", "梗歌宇宙番外"]
+}

@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-21",
+  "date": "2026-05-22",
   "title": "B站AI音乐爆款日报",
-  "summary": "AI音乐头部格局继续稳定，《夜曲》黑人大叔版突破百万，经典歌反差翻唱证明可持续长尾。",
-  "reportUrl": "./reports/2026-05-21.html",
-  "dataUrl": "./data/2026-05-21.json",
+  "summary": "近 24 小时未发现稳定新发破 20w 的纯 AI 音乐单条，存量头部继续增长，重点转为模板复用。",
+  "reportUrl": "./reports/2026-05-22.html",
+  "dataUrl": "./data/2026-05-22.json",
   "kpis": {
     "trackedVideos": 10,
-    "topView": "1153.7w",
-    "topShare": "14.84w",
-    "focus": "经典歌反差翻唱"
+    "topView": "1153.8w",
+    "topShare": "14.85w",
+    "focus": "模板复用"
   }
 }

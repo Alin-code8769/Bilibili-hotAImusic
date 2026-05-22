@@ -1,0 +1,23 @@
+{
+  "date": "2026-05-22",
+  "scope": "B站 AI 音乐 / AI翻唱 / AI艺人 / Suno / 梗歌MV，播放量 20w+",
+  "summary": "近 24 小时未发现稳定新发破 20w 的纯 AI 音乐单条，存量头部继续增长，重点转为模板复用。",
+  "kpis": {
+    "trackedVideos": 10,
+    "topView": "1153.8w",
+    "topShare": "14.85w",
+    "focus": "模板复用"
+  },
+  "videos": [
+    {"title":"B站首届AI春晚！","bvid":"BV1duFrztESM","url":"https://www.bilibili.com/video/BV1duFrztESM/","up":"秋芝2046","views":11537827,"type":"AI春晚 / 大事件舞台","status":"头部标杆"},
+    {"title":"【AI 周杰伦】《那天下雨了》+5Key 升调版","bvid":"BV1daQ1BUEm2","url":"https://www.bilibili.com/video/BV1daQ1BUEm2/","up":"Eternity-Li","views":7899995,"type":"AI声线复刻 / 周杰伦新歌二创","status":"头部标杆"},
+    {"title":"《夜曲》周杰伦 AI翻唱 黑人大叔卖力演唱","bvid":"BV15dDSBdEur","url":"https://www.bilibili.com/video/BV15dDSBdEur/","up":"八十万刁民总教头","views":1010125,"type":"Suno V5.5 / 经典歌反差翻唱","status":"破百万后续"},
+    {"title":"⚡瓜有点甜⚡","bvid":"BV1xbRhBKEfn","url":"https://www.bilibili.com/video/BV1xbRhBKEfn/","up":"兰斯的画室LanceStudio","views":3056980,"type":"AI梗歌MV / 系列宇宙","status":"升温"}
+  ],
+  "upRadar": [
+    {"name":"Eternity-Li","spaceUrl":"https://space.bilibili.com/352117879","positioning":"AI歌手声线复刻 / 周杰伦二创","priority":"重点关注"},
+    {"name":"八十万刁民总教头","spaceUrl":"https://space.bilibili.com/1390382993","positioning":"Suno / 经典歌反差唱腔改编","priority":"重点关注"},
+    {"name":"兰斯的画室LanceStudio","spaceUrl":"https://space.bilibili.com/3546866685839722","positioning":"AI梗歌 MV / 角色宇宙 / 整活叙事","priority":"重点关注"}
+  ],
+  "templates": ["名曲反差唱腔栏目", "新歌 AI 声线补完", "爆款梗番外宇宙", "IP 阵营战歌"]
+}

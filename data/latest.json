@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-22",
+  "date": "2026-05-24",
   "title": "B站AI音乐爆款日报",
-  "summary": "近 24 小时未发现稳定新发破 20w 的纯 AI 音乐单条，存量头部继续增长，重点转为模板复用。",
-  "reportUrl": "./reports/2026-05-22.html",
-  "dataUrl": "./data/2026-05-22.json",
+  "summary": "B站搜索接口今日触发 412 风控，新增发现受限；按公开视频详情刷新可验证样本后，存量头部继续增长，甜瓜番外逼近 200w，AI周杰伦接近 795w，《夜曲》黑人大叔版继续破圈长尾。",
+  "reportUrl": "./reports/2026-05-24.html",
+  "dataUrl": "./data/2026-05-24.json",
   "kpis": {
     "trackedVideos": 10,
-    "topView": "1153.8w",
-    "topShare": "14.85w",
-    "focus": "模板复用"
+    "topView": "1154.0w",
+    "topShare": "14.87w",
+    "focus": "经典反差唱腔 + 梗歌续集化"
   }
 }

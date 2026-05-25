@@ -1,0 +1,38 @@
+{
+  "date": "2026-05-25",
+  "scope": "B站 AI音乐 / AI翻唱 / AI Cover / Suno / AI改编 / AI梗歌MV，播放量 20w+",
+  "summary": "今日新增入池盗梦三原色的两条 Suno 黑人福音版老歌改编：《红色高跟鞋》56.4w、《花海》37.1w；甜瓜番外《瓜有引力》突破 200w，证明爆款梗续集化仍在跑。",
+  "kpis": {
+    "trackedVideos": 12,
+    "newVideos": 2,
+    "topView": "1154.1w",
+    "topShare": "14.88w",
+    "focus": "老歌黑人福音化 + 爆款梗番外"
+  },
+  "videos": [
+    {"title":"B站首届AI春晚！","bvid":"BV1duFrztESM","url":"https://www.bilibili.com/video/BV1duFrztESM/","up":"秋芝2046","spaceUrl":"https://space.bilibili.com/385670211","publishedAt":"2026-02-07","views":11540536,"likes":808008,"coins":233155,"favorites":472170,"shares":121229,"comments":20807,"danmaku":58314,"cover":"https://i0.hdslb.com/bfs/archive/2bb8f1b2d2d497c3be1c87c87bcfe539777efd32.jpg","type":"AI春晚 / 大事件舞台","status":"头部标杆"},
+    {"title":"【AI 周杰伦】《那天下雨了》+5Key 升调版","bvid":"BV1daQ1BUEm2","url":"https://www.bilibili.com/video/BV1daQ1BUEm2/","up":"Eternity-Li","spaceUrl":"https://space.bilibili.com/352117879","publishedAt":"2026-03-25","views":7966306,"likes":281352,"coins":195195,"favorites":220637,"shares":148775,"comments":15804,"danmaku":12463,"cover":"https://i1.hdslb.com/bfs/archive/c88cf0201889b1d78a95aa7b3dd89a15976ad7a3.jpg","type":"AI声线复刻 / 新歌补完","status":"头部标杆"},
+    {"title":"⚡瓜有点甜⚡","bvid":"BV1xbRhBKEfn","url":"https://www.bilibili.com/video/BV1xbRhBKEfn/","up":"兰斯的画室LanceStudio","spaceUrl":"https://space.bilibili.com/3546866685839722","publishedAt":"2026-05-07","views":3136731,"likes":174314,"coins":56838,"favorites":53588,"shares":56387,"comments":10532,"danmaku":13367,"cover":"https://i0.hdslb.com/bfs/archive/2a8dd1b6493b03af1e86dea69d03a61cb95c0778.jpg","type":"AI梗歌MV / 角色宇宙","status":"升温"},
+    {"title":"⚡瓜有引力⚡《保熟的约定》番外MV","bvid":"BV1Km576NEfy","url":"https://www.bilibili.com/video/BV1Km576NEfy/","up":"兰斯的画室LanceStudio","spaceUrl":"https://space.bilibili.com/3546866685839722","publishedAt":"2026-05-10","views":2003045,"likes":72247,"coins":15617,"favorites":20659,"shares":15006,"comments":4732,"danmaku":2514,"cover":"https://i0.hdslb.com/bfs/archive/515f52daae4b3d129ef164a25c87bb9e13d6c762.jpg","type":"AI改编MV / 爆款番外","status":"破200w"},
+    {"title":"摇滚是对的！周杰伦《太阳之子》梦龙版（Son of Sun）","bvid":"BV1a3Q6BZEgi","url":"https://www.bilibili.com/video/BV1a3Q6BZEgi/","up":"你是我的脸0","spaceUrl":"https://space.bilibili.com/11615385","publishedAt":"2026-03-25","views":1577294,"likes":29047,"coins":9023,"favorites":15179,"shares":16901,"comments":2447,"danmaku":1169,"cover":"https://i0.hdslb.com/bfs/archive/ed84607b9cd463fe41150e1b607996641e2e4922.jpg","type":"热歌风格化重编","status":"持续观察"},
+    {"title":"[SUNO V5.5] 《夜曲》周杰伦 AI翻唱 黑人大叔卖力演唱","bvid":"BV15dDSBdEur","url":"https://www.bilibili.com/video/BV15dDSBdEur/","up":"八十万刁民总教头","spaceUrl":"https://space.bilibili.com/1390382993","publishedAt":"2026-04-12","views":1041418,"likes":45283,"coins":27043,"favorites":37912,"shares":10682,"comments":1757,"danmaku":857,"cover":"https://i0.hdslb.com/bfs/archive/7e9a8c3423ebb406f7cb0f2847c0259919bae6e8.jpg","type":"Suno / 经典歌反差翻唱","status":"持续升温"},
+    {"title":"【Suno V5】蔡健雅-红色高跟鞋-黑人福音版","bvid":"BV1rAzVBKEaz","url":"https://www.bilibili.com/video/BV1rAzVBKEaz/","up":"盗梦三原色","spaceUrl":"https://space.bilibili.com/3691004406270371","publishedAt":"2026-01-21","views":564182,"likes":14533,"coins":6489,"favorites":15733,"shares":3033,"comments":944,"danmaku":445,"cover":"https://i2.hdslb.com/bfs/archive/1cc5cb4e61ea67764cdecff45d34b3b7837dd4b1.jpg","type":"Suno / 老歌黑人福音版","status":"新增入池"},
+    {"title":"【Suno V5】周杰伦-花海-黑人福音版","bvid":"BV1oXzmBfEoA","url":"https://www.bilibili.com/video/BV1oXzmBfEoA/","up":"盗梦三原色","spaceUrl":"https://space.bilibili.com/3691004406270371","publishedAt":"2026-01-25","views":370699,"likes":6048,"coins":2885,"favorites":8053,"shares":1752,"comments":435,"danmaku":209,"cover":"https://i1.hdslb.com/bfs/archive/053a5ed5b889368cd1fd3117d57d8279d6d8c638.jpg","type":"Suno / 老歌黑人福音版","status":"新增入池"},
+    {"title":"AI艺人专场演唱会来自中国虚拟艺人六六","bvid":"BV1BE6xBqEM8","url":"https://www.bilibili.com/video/BV1BE6xBqEM8/","up":"虚拟艺人六六","spaceUrl":"https://space.bilibili.com/2119696622","publishedAt":"2026-02-13","views":706307,"likes":18953,"coins":13649,"favorites":14441,"shares":4547,"comments":2294,"danmaku":2993,"cover":"https://i2.hdslb.com/bfs/archive/f2110d2f6be4b4340c6e667a1fa31e2c58bf3d31.jpg","type":"AI艺人 / 虚拟偶像演唱会","status":"持续观察"},
+    {"title":"「星际和平公司」必修曲目：筑！筑！筑！","bvid":"BV1DzDxBJET2","url":"https://www.bilibili.com/video/BV1DzDxBJET2/","up":"复利大叔","spaceUrl":"https://space.bilibili.com/4658735","publishedAt":"2026-04-09","views":698344,"likes":59997,"coins":18491,"favorites":28847,"shares":3409,"comments":1698,"danmaku":622,"cover":"https://i2.hdslb.com/bfs/archive/225b6aa105affa4c4b23423d3afa25d6030e504c.jpg","type":"游戏IP / Suno原创战歌","status":"持续观察"},
+    {"title":"【终末地】洛茜：管理员的情债茫茫多！《说书人》","bvid":"BV1Fu97BUEL7","url":"https://www.bilibili.com/video/BV1Fu97BUEL7/","up":"寒水老N","spaceUrl":"https://space.bilibili.com/498384383","publishedAt":"2026-04-01","views":441905,"likes":53877,"coins":16032,"favorites":21971,"shares":5051,"comments":1105,"danmaku":465,"cover":"https://i2.hdslb.com/bfs/archive/f6a6cd74c636ed139bd6d9f9ba2710f3c807eb61.jpg","type":"游戏角色剧情歌 / Suno改编","status":"持续观察"},
+    {"title":"【2026六大LLM联唱】稳稳地接住你（原创）","bvid":"BV15uRbBGE44","url":"https://www.bilibili.com/video/BV15uRbBGE44/","up":"万童Official","spaceUrl":"https://space.bilibili.com/1932040601","publishedAt":"2026-05-06","views":236661,"likes":13956,"coins":4786,"favorites":7017,"shares":6883,"comments":1322,"danmaku":809,"cover":"https://i0.hdslb.com/bfs/archive/fdef5caf26c66f8d638d2c58a2e445d465947a25.jpg","type":"AI拟人群像 / LLM合唱","status":"升温"}
+  ],
+  "upRadar": [
+    {"name":"兰斯的画室LanceStudio","spaceUrl":"https://space.bilibili.com/3546866685839722","representativeVideo":"https://www.bilibili.com/video/BV1Km576NEfy/","positioning":"AI梗歌MV / 角色宇宙 / 整活叙事","priority":"重点关注"},
+    {"name":"盗梦三原色","spaceUrl":"https://space.bilibili.com/3691004406270371","representativeVideo":"https://www.bilibili.com/video/BV1rAzVBKEaz/","positioning":"Suno 老歌黑人福音化 / 经典旋律反差改编","priority":"重点关注"},
+    {"name":"Eternity-Li","spaceUrl":"https://space.bilibili.com/352117879","representativeVideo":"https://www.bilibili.com/video/BV1daQ1BUEm2/","positioning":"AI歌手声线复刻 / 周杰伦二创","priority":"重点关注"},
+    {"name":"八十万刁民总教头","spaceUrl":"https://space.bilibili.com/1390382993","representativeVideo":"https://www.bilibili.com/video/BV15dDSBdEur/","positioning":"Suno / 经典歌反差唱腔改编","priority":"重点关注"},
+    {"name":"秋芝2046","spaceUrl":"https://space.bilibili.com/385670211","representativeVideo":"https://www.bilibili.com/video/BV1duFrztESM/","positioning":"AI大事件组织 / AI春晚","priority":"重点关注"},
+    {"name":"虚拟艺人六六","spaceUrl":"https://space.bilibili.com/2119696622","representativeVideo":"https://www.bilibili.com/video/BV1BE6xBqEM8/","positioning":"AI虚拟艺人 / 长视频演唱会","priority":"持续观察"},
+    {"name":"复利大叔","spaceUrl":"https://space.bilibili.com/4658735","representativeVideo":"https://www.bilibili.com/video/BV1DzDxBJET2/","positioning":"游戏IP战歌 / Suno原创","priority":"持续观察"},
+    {"name":"寒水老N","spaceUrl":"https://space.bilibili.com/498384383","representativeVideo":"https://www.bilibili.com/video/BV1Fu97BUEL7/","positioning":"游戏角色剧情歌 / 改编叙事","priority":"持续观察"},
+    {"name":"万童Official","spaceUrl":"https://space.bilibili.com/1932040601","representativeVideo":"https://www.bilibili.com/video/BV15uRbBGE44/","positioning":"LLM拟人合唱 / 原创AI歌曲","priority":"持续观察"}
+  ],
+  "templates": ["老歌黑人福音化", "爆款梗续集番外MV", "新歌声线补完快反", "IP阵营战歌", "AI虚拟艺人月度Live"]
+}

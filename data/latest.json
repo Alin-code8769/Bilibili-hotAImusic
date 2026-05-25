@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-24",
+  "date": "2026-05-25",
   "title": "B站AI音乐爆款日报",
-  "summary": "B站搜索接口今日触发 412 风控，新增发现受限；按公开视频详情刷新可验证样本后，存量头部继续增长，甜瓜番外逼近 200w，AI周杰伦接近 795w，《夜曲》黑人大叔版继续破圈长尾。",
-  "reportUrl": "./reports/2026-05-24.html",
-  "dataUrl": "./data/2026-05-24.json",
+  "summary": "今日新增入池盗梦三原色的两条 Suno 黑人福音版老歌改编：《红色高跟鞋》56.4w、《花海》37.1w；甜瓜番外《瓜有引力》突破 200w。",
+  "reportUrl": "./reports/2026-05-25.html",
+  "dataUrl": "./data/2026-05-25.json",
   "kpis": {
-    "trackedVideos": 10,
-    "topView": "1154.0w",
-    "topShare": "14.87w",
-    "focus": "经典反差唱腔 + 梗歌续集化"
+    "trackedVideos": 12,
+    "topView": "1154.1w",
+    "topShare": "14.88w",
+    "focus": "老歌黑人福音化 + 爆款梗番外"
   }
 }

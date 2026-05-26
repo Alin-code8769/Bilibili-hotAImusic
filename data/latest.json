@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-25",
+  "date": "2026-05-26",
   "title": "B站AI音乐爆款日报",
-  "summary": "今日新增入池盗梦三原色的两条 Suno 黑人福音版老歌改编：《红色高跟鞋》56.4w、《花海》37.1w；甜瓜番外《瓜有引力》突破 200w。",
-  "reportUrl": "./reports/2026-05-25.html",
-  "dataUrl": "./data/2026-05-25.json",
+  "summary": "今日未验证到近 24 小时新发且破 20w 的 AI 音乐单条；存量头部继续增长，AI 周杰伦接近 800w，甜瓜番外《瓜有引力》升至 201.9w。",
+  "reportUrl": "./reports/2026-05-26.html",
+  "dataUrl": "./data/2026-05-26.json",
   "kpis": {
     "trackedVideos": 12,
     "topView": "1154.1w",
-    "topShare": "14.88w",
-    "focus": "老歌黑人福音化 + 爆款梗番外"
+    "topShare": "14.89w",
+    "focus": "存量爆款二次利用 + 反差唱腔系列化"
   }
 }

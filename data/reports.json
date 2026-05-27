@@ -1,6 +1,13 @@
 {
-  "updatedAt": "2026-05-26T10:01:00+08:00",
+  "updatedAt": "2026-05-27T10:00:00+08:00",
   "reports": [
+    {
+      "date": "2026-05-27",
+      "title": "B站AI音乐爆款日报",
+      "summary": "今日新增入池一条可验证 20w+ Suno 黑人福音改编：丁世光《Simon》黑人福音版 48.3w；AI 周杰伦升至 799.7w，接近 800w 节点。",
+      "reportUrl": "./reports/2026-05-27.html",
+      "dataUrl": "./data/2026-05-27.json"
+    },
     {
       "date": "2026-05-26",
       "title": "B站AI音乐爆款日报",

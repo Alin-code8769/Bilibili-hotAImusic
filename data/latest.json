@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-26",
+  "date": "2026-05-27",
   "title": "B站AI音乐爆款日报",
-  "summary": "今日未验证到近 24 小时新发且破 20w 的 AI 音乐单条；存量头部继续增长，AI 周杰伦接近 800w，甜瓜番外《瓜有引力》升至 201.9w。",
-  "reportUrl": "./reports/2026-05-26.html",
-  "dataUrl": "./data/2026-05-26.json",
+  "summary": "今日新增入池一条可验证 20w+ Suno 黑人福音改编：丁世光《Simon》黑人福音版 48.3w；AI 周杰伦升至 799.7w，接近 800w 节点。",
+  "reportUrl": "./reports/2026-05-27.html",
+  "dataUrl": "./data/2026-05-27.json",
   "kpis": {
-    "trackedVideos": 12,
-    "topView": "1154.1w",
+    "trackedVideos": 13,
+    "topView": "1154.2w",
     "topShare": "14.89w",
-    "focus": "存量爆款二次利用 + 反差唱腔系列化"
+    "focus": "黑人福音改编池 + 800w节点传播"
   }
 }

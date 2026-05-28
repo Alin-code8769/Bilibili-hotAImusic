@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-27",
+  "date": "2026-05-28",
   "title": "B站AI音乐爆款日报",
-  "summary": "今日新增入池一条可验证 20w+ Suno 黑人福音改编：丁世光《Simon》黑人福音版 48.3w；AI 周杰伦升至 799.7w，接近 800w 节点。",
-  "reportUrl": "./reports/2026-05-27.html",
-  "dataUrl": "./data/2026-05-27.json",
+  "summary": "今日未验证到新增 20w+ AI音乐单条；存量头部出现关键节点：AI 周杰伦《那天下雨了》升至 801.4w，正式越过 800w。",
+  "reportUrl": "./reports/2026-05-28.html",
+  "dataUrl": "./data/2026-05-28.json",
   "kpis": {
     "trackedVideos": 13,
     "topView": "1154.2w",
-    "topShare": "14.89w",
-    "focus": "黑人福音改编池 + 800w节点传播"
+    "topShare": "14.90w",
+    "focus": "800w节点复盘 + 存量爆款模板扩写"
   }
 }

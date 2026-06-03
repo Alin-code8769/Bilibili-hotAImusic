@@ -1,13 +1,13 @@
 {
-  "date": "2026-05-28",
+  "date": "2026-06-03",
   "title": "B站AI音乐爆款日报",
-  "summary": "今日未验证到新增 20w+ AI音乐单条；存量头部出现关键节点：AI 周杰伦《那天下雨了》升至 801.4w，正式越过 800w。",
-  "reportUrl": "./reports/2026-05-28.html",
-  "dataUrl": "./data/2026-05-28.json",
+  "summary": "周三对比报告缺少 2026-06-01 周一基线，本次退化为单次快照；近期重点追踪甜瓜主线和六大LLM联唱，小博主雷达优先。",
+  "reportUrl": "./reports/2026-06-03.html",
+  "dataUrl": "./data/2026-06-03.json",
   "kpis": {
     "trackedVideos": 13,
-    "topView": "1154.2w",
-    "topShare": "14.90w",
-    "focus": "800w节点复盘 + 存量爆款模板扩写"
+    "topView": "1154.7w",
+    "topShare": "14.95w",
+    "focus": "建立周一基线后再判断飙升"
   }
 }

@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>B站AI音乐爆款监测 2026-06-10</title>
+  <style>
+    :root{--bg:#f6f2ea;--card:#fffaf1;--ink:#241b16;--muted:#746358;--line:#e7d9c7;--red:#b92821;--orange:#dd7a1f;--blue:#315b9a;--green:#24745d}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",Arial,sans-serif;line-height:1.55}a{color:inherit;text-decoration:none}.wrap{max-width:1180px;margin:0 auto;padding:28px 18px 42px}
+    header{padding:28px;border-radius:22px;background:linear-gradient(135deg,#251713,#9f251f 58%,#e08b27);color:white;box-shadow:0 18px 45px rgba(90,35,18,.18)}.eyebrow{font-size:13px;opacity:.86;letter-spacing:.08em;text-transform:uppercase}h1{margin:8px 0 10px;font-size:clamp(30px,5vw,54px);line-height:1.05}.lead{max-width:940px;margin:0;font-size:17px;opacity:.94}.meta{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.pill{display:inline-flex;padding:7px 11px;border-radius:999px;background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.22);font-size:13px}
+    .section-title{margin:30px 0 14px;font-size:22px}.kpis{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:18px}.kpi,.card,.table-card{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:0 10px 28px rgba(84,55,28,.08)}.kpi{padding:18px}.kpi b{display:block;font-size:24px;line-height:1.1;margin-bottom:5px;color:var(--red)}.kpi span{color:var(--muted);font-size:13px}.note{margin-top:14px;padding:12px 14px;border-radius:14px;background:#fff7eb;border:1px solid var(--line);color:#5d4b3f;font-size:14px}
+    .table-card{overflow:hidden}table{width:100%;border-collapse:collapse;font-size:13px}th,td{padding:10px 9px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}th{background:#fff2df;color:#5b3b2a;font-size:12px}td.num{white-space:nowrap;font-variant-numeric:tabular-nums}.tag{display:inline-block;padding:4px 8px;border-radius:999px;color:white;font-size:12px;white-space:nowrap}.hot{background:var(--red)}.rise{background:var(--orange)}.watch{background:var(--blue)}.new{background:var(--green)}.type{color:#5a4639;font-size:13px}.watch-cell{display:flex;flex-direction:column;gap:7px;align-items:flex-start}.watch-link,.mini-link{display:inline-flex;padding:6px 8px;border-radius:8px;background:#f1e4d1;color:#5b3b2a;font-size:12px;font-weight:700;white-space:nowrap}
+    .grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.case{overflow:hidden}.thumb{display:block;position:relative;width:100%;aspect-ratio:16/9;background:#ead9c2;overflow:hidden}.thumb img{display:block;width:100%;height:100%;object-fit:cover}.play-badge{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:66px;height:66px;border-radius:50%;background:rgba(185,40,33,.92)}.play-badge:before{content:"";position:absolute;left:27px;top:20px;border-top:13px solid transparent;border-bottom:13px solid transparent;border-left:20px solid white}.case-body{padding:16px}.case h3,.up h3,.template h3{margin:0 0 8px;font-size:18px;line-height:1.25}.stats{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 12px}.stat{padding:5px 8px;border-radius:8px;background:#f1e4d1;color:#604839;font-size:12px}.case p,.up p{margin:8px 0;color:#4a3b32;font-size:14px}.open-link{display:inline-flex;margin-top:12px;padding:9px 12px;border-radius:10px;background:var(--red);color:white;font-weight:700;font-size:14px}
+    .insights,.ideas{display:grid;gap:10px;margin:0;padding:0;list-style:none}.insights li,.ideas li{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 15px}.ideas b{color:var(--red)}.radar,.templates{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.up,.template{padding:16px}.up-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}.priority{flex:0 0 auto;padding:4px 8px;border-radius:999px;background:#efe2cc;color:#6b4b2d;font-size:12px;font-weight:700}.priority.high{background:#ffe0dc;color:var(--red)}.up-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.template dl{display:grid;gap:8px;margin:0}.template div{display:grid;grid-template-columns:92px 1fr;gap:10px}.template dt{color:var(--muted);font-size:13px;font-weight:700}.template dd{margin:0;color:#44352d;font-size:14px}
+    footer{margin-top:24px;color:var(--muted);font-size:12px;text-align:center}@media(max-width:900px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}.grid,.radar,.templates{grid-template-columns:1fr}.table-card{overflow-x:auto}table{min-width:1320px}}@media(max-width:520px){.wrap{padding:16px 12px 30px}header{padding:22px}.kpis{grid-template-columns:1fr}}
+  </style>
+</head>
+<body><main class="wrap">
+  <header>
+    <div class="eyebrow">Bilibili AI Music Weekly Monitor</div>
+    <h1>B站AI音乐爆款监测</h1>
+    <p class="lead">报告类型：周三对比（缺少 2026-06-08 周一基线，退化为单次快照）。本次不能计算周一到周三增量，也不能判定“明显飙升”。当前可验证样本中没有 30 天内发布且播放 20w+ 的新视频；小体量账号仍有存量破圈样本，但需要下周一重建基线后再判断升温。</p>
+    <div class="meta"><span class="pill">日期：2026-06-10</span><span class="pill">口径：播放量 20w+</span><span class="pill">近期定义：30天内发布</span><span class="pill">数据源：B站公开视频详情</span></div>
+  </header>
+  <section class="kpis"><div class="kpi"><b>12</b><span>本次可验证视频</span></div><div class="kpi"><b>0</b><span>新增候选过20w</span></div><div class="kpi"><b>1155.6w</b><span>最高播放</span></div><div class="kpi"><b>无基线</b><span>周一到周三最高增量</span></div><div class="kpi"><b>重建基线</b><span>最值得跟进方向</span></div></section>
+  <div class="note">异常说明：AI周杰伦《那天下雨了》+5Key（BV1daQ1BUEm2）本次公开视频接口返回 -404，无法核验当前数据，已从表格移除。低播放候选不纳入爆款表。</div>
+
+  <h2 class="section-title">爆款视频对比表</h2>
+  <section class="table-card"><table><thead><tr><th>视频</th><th>UP主</th><th>发布时间</th><th>近期</th><th>周一播放</th><th>当前播放</th><th>播放增量</th><th>涨幅</th><th>互动增量</th><th>内容类型</th><th>状态/播放</th></tr></thead><tbody>
+    <tr><td><a href="https://www.bilibili.com/video/BV1duFrztESM/" target="_blank">B站首届AI春晚！</a></td><td>秋芝2046</td><td>2026-02-07</td><td>否</td><td class="num">无基线</td><td class="num">1155.6w</td><td>-</td><td>-</td><td>-</td><td class="type">AI春晚 / 大事件舞台</td><td><div class="watch-cell"><span class="tag hot">头部长尾</span><a class="watch-link" href="https://www.bilibili.com/video/BV1duFrztESM/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">⚡瓜有点甜⚡</a></td><td>兰斯的画室LanceStudio</td><td>2026-05-07</td><td>否</td><td class="num">无基线</td><td class="num">331.9w</td><td>-</td><td>-</td><td>-</td><td class="type">AI梗歌MV / 角色宇宙</td><td><div class="watch-cell"><span class="tag rise">存量破圈</span><a class="watch-link" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank">⚡瓜有引力⚡</a></td><td>兰斯的画室LanceStudio</td><td>2026-05-10</td><td>否</td><td class="num">无基线</td><td class="num">216.1w</td><td>-</td><td>-</td><td>-</td><td class="type">AI改编MV / 爆款番外</td><td><div class="watch-cell"><span class="tag rise">存量破圈</span><a class="watch-link" href="https://www.bilibili.com/video/BV1Km576NEfy/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">《夜曲》黑人大叔版</a></td><td>八十万刁民总教头</td><td>2026-04-12</td><td>否</td><td class="num">无基线</td><td class="num">117.3w</td><td>-</td><td>-</td><td>-</td><td class="type">Suno / 经典歌反差翻唱</td><td><div class="watch-cell"><span class="tag rise">存量回温</span><a class="watch-link" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV15uRbBGE44/" target="_blank">六大LLM联唱《稳稳地接住你》</a></td><td>万童Official</td><td>2026-05-06</td><td>否</td><td class="num">无基线</td><td class="num">26.1w</td><td>-</td><td>-</td><td>-</td><td class="type">AI拟人群像 / LLM合唱</td><td><div class="watch-cell"><span class="tag watch">存量观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV15uRbBGE44/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV1DzDxBJET2/" target="_blank">星际和平公司：筑！筑！筑！</a></td><td>复利大叔</td><td>2026-04-09</td><td>否</td><td class="num">无基线</td><td class="num">77.4w</td><td>-</td><td>-</td><td>-</td><td class="type">游戏IP / Suno原创战歌</td><td><div class="watch-cell"><span class="tag rise">存量回温</span><a class="watch-link" href="https://www.bilibili.com/video/BV1DzDxBJET2/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV1BE6xBqEM8/" target="_blank">AI艺人专场演唱会</a></td><td>虚拟艺人六六</td><td>2026-02-13</td><td>否</td><td class="num">无基线</td><td class="num">71.1w</td><td>-</td><td>-</td><td>-</td><td class="type">AI艺人 / 虚拟偶像演唱会</td><td><div class="watch-cell"><span class="tag hot">头部长尾</span><a class="watch-link" href="https://www.bilibili.com/video/BV1BE6xBqEM8/" target="_blank">打开视频</a></div></td></tr>
+    <tr><td><a href="https://www.bilibili.com/video/BV1rAzVBKEaz/" target="_blank">红色高跟鞋-黑人福音版</a></td><td>盗梦三原色</td><td>2026-01-21</td><td>否</td><td class="num">无基线</td><td class="num">58.0w</td><td>-</td><td>-</td><td>-</td><td class="type">Suno / 老歌黑人福音版</td><td><div class="watch-cell"><span class="tag watch">存量观察</span><a class="watch-link" href="https://www.bilibili.com/video/BV1rAzVBKEaz/" target="_blank">打开视频</a></div></td></tr>
+  </tbody></table></section>
+
+  <h2 class="section-title">重点 Case</h2>
+  <section class="grid">
+    <article class="card case"><a class="thumb" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank"><img src="https://i0.hdslb.com/bfs/archive/2a8dd1b6493b03af1e86dea69d03a61cb95c0778.jpg" alt="瓜有点甜封面"><span class="play-badge"></span></a><div class="case-body"><h3>存量破圈：甜瓜主线</h3><div class="stats"><span class="stat">331.9w播放</span><span class="stat">UP粉丝2.5w</span><span class="stat">非30天内</span></div><p><b>判断：</b>不标飙升，但小体量账号单条破圈仍值得下周一建基线跟踪。</p><a class="open-link" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">去 B 站播放</a></div></article>
+    <article class="card case"><a class="thumb" href="https://www.bilibili.com/video/BV15uRbBGE44/" target="_blank"><img src="https://i0.hdslb.com/bfs/archive/fdef5caf26c66f8d638d2c58a2e445d465947a25.jpg" alt="LLM联唱封面"><span class="play-badge"></span></a><div class="case-body"><h3>小博主样本：LLM联唱</h3><div class="stats"><span class="stat">26.1w播放</span><span class="stat">UP粉丝2324</span><span class="stat">非30天内</span></div><p><b>判断：</b>粉丝很小但单条过20w，下周一可作为小博主雷达基线。</p><a class="open-link" href="https://www.bilibili.com/video/BV15uRbBGE44/" target="_blank">去 B 站播放</a></div></article>
+    <article class="card case"><a class="thumb" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank"><img src="https://i0.hdslb.com/bfs/archive/7e9a8c3423ebb406f7cb0f2847c0259919bae6e8.jpg" alt="夜曲黑人大叔版封面"><span class="play-badge"></span></a><div class="case-body"><h3>存量回温：《夜曲》反差唱腔</h3><div class="stats"><span class="stat">117.3w播放</span><span class="stat">UP粉丝3.5w</span><span class="stat">非30天内</span></div><p><b>判断：</b>只能作为反差唱腔长尾模板，不能标为近期飙升。</p><a class="open-link" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">去 B 站播放</a></div></article>
+  </section>
+
+  <h2 class="section-title">本周洞察</h2>
+  <ul class="insights">
+    <li>本周一基线缺失，今天不能计算周一到周三增量，也不能严谨判定“明显飙升”。</li>
+    <li>当前样本没有30天内发布且过20w的新视频；旧视频即使播放高，也必须归为头部长尾或存量回温。</li>
+    <li>小体量创作者仍是重点：兰斯的画室LanceStudio 粉丝约2.5w但两条视频331.9w/216.1w；万童Official 粉丝约2324但单条26.1w。</li>
+    <li>AI周杰伦旧样本本次返回 -404，说明后续报告必须只依赖当前可验证公开视频，不沿用不可访问历史数据。</li>
+  </ul>
+
+  <h2 class="section-title">AI音乐UP主雷达</h2>
+  <section class="radar">
+    <article class="card up"><div class="up-head"><h3>兰斯的画室LanceStudio</h3><span class="priority high">重点关注</span></div><p><b>类型：</b>小体量存量破圈 / 整活型。粉丝约2.5w。</p><p><b>依据：</b>《瓜有点甜》331.9w，《瓜有引力》216.1w。</p><p><b>可借鉴：</b>梗歌连续剧化、固定标题符号、番外机制。</p><div class="up-links"><a class="mini-link" href="https://space.bilibili.com/3546866685839722" target="_blank">主页</a><a class="mini-link" href="https://www.bilibili.com/video/BV1xbRhBKEfn/" target="_blank">代表视频</a></div></article>
+    <article class="card up"><div class="up-head"><h3>万童Official</h3><span class="priority high">重点关注</span></div><p><b>类型：</b>小体量存量破圈 / AI拟人型。粉丝约2324。</p><p><b>依据：</b>《六大LLM联唱》26.1w，粉丝体量小但单条破圈。</p><p><b>可借鉴：</b>模型人格化、工具圈层共鸣、合唱分part结构。</p><div class="up-links"><a class="mini-link" href="https://space.bilibili.com/1932040601" target="_blank">主页</a><a class="mini-link" href="https://www.bilibili.com/video/BV15uRbBGE44/" target="_blank">代表视频</a></div></article>
+    <article class="card up"><div class="up-head"><h3>八十万刁民总教头</h3><span class="priority high">重点关注</span></div><p><b>类型：</b>小体量存量破圈 / 反差唱腔型。粉丝约3.5w。</p><p><b>依据：</b>《夜曲》黑人大叔版117.3w，非近期发布。</p><p><b>可借鉴：</b>强人设唱腔 + 经典歌。</p><div class="up-links"><a class="mini-link" href="https://space.bilibili.com/1390382993" target="_blank">主页</a><a class="mini-link" href="https://www.bilibili.com/video/BV15dDSBdEur/" target="_blank">代表视频</a></div></article>
+    <article class="card up"><div class="up-head"><h3>盗梦三原色</h3><span class="priority">持续观察</span></div><p><b>类型：</b>小体量存量破圈 / 专业改编型。粉丝约3556。</p><p><b>依据：</b>《红色高跟鞋》58.0w，《花海》38.4w。</p><p><b>可借鉴：</b>老歌黑人福音化歌单池。</p><div class="up-links"><a class="mini-link" href="https://space.bilibili.com/3691004406270371" target="_blank">主页</a><a class="mini-link" href="https://www.bilibili.com/video/BV1rAzVBKEaz/" target="_blank">代表视频</a></div></article>
+    <article class="card up"><div class="up-head"><h3>虚拟艺人六六</h3><span class="priority">头部观察</span></div><p><b>类型：</b>头部创作者 / AI艺人型。粉丝约7.2w。</p><p><b>依据：</b>AI艺人专场演唱会71.1w，长视频AI艺人IP样本。</p><p><b>可借鉴：</b>长视频演唱会、固定AI艺人人设。</p><div class="up-links"><a class="mini-link" href="https://space.bilibili.com/2119696622" target="_blank">主页</a><a class="mini-link" href="https://www.bilibili.com/video/BV1BE6xBqEM8/" target="_blank">代表视频</a></div></article>
+  </section>
+
+  <h2 class="section-title">适合跟进的选题建议</h2>
+  <ul class="ideas">
+    <li><b>严格重建周一基线：</b>下周一优先抓30天内新视频和小体量账号候选，周三再判断是否飙升。</li>
+    <li><b>小博主破圈复盘：</b>标题可做《粉丝两千，AI音乐单条26万播放是怎么来的？》。</li>
+    <li><b>梗歌连续剧：</b>围绕甜瓜宇宙拆“主题曲 + 番外 + 反派曲”的结构，但标记为存量模板。</li>
+    <li><b>公开视频可用性检查：</b>AI周杰伦旧样本已不可访问，后续不再用不可验证数据做判断。</li>
+  </ul>
+
+  <h2 class="section-title">可固定成玩法的视频模板</h2>
+  <section class="templates">
+    <article class="card template"><h3>模板 A：严格基线对比</h3><dl><div><dt>适用热点</dt><dd>所有近期AI音乐候选。</dd></div><div><dt>视频结构</dt><dd>周一入池 → 周三复查 → 增量排序 → 只把近期视频标飙升。</dd></div><div><dt>标题公式</dt><dd>这周真正升温的AI音乐不是播放最高的，而是涨得最快的。</dd></div><div><dt>复用原因</dt><dd>减少单点误判。</dd></div><div><dt>示例</dt><dd>下周三对比新入池候选。</dd></div></dl></article>
+    <article class="card template"><h3>模板 B：近期新视频候选池</h3><dl><div><dt>适用热点</dt><dd>30天内发布、播放接近或超过20w的视频。</dd></div><div><dt>视频结构</dt><dd>发布时间 → 当前播放 → 周三增量 → 是否明显升温。</dd></div><div><dt>标题公式</dt><dd>这条刚发不久的AI音乐，为什么两天涨了[增量]？</dd></div><div><dt>复用原因</dt><dd>符合近期飙升硬约束。</dd></div><div><dt>示例</dt><dd>下周一建立30天内候选池。</dd></div></dl></article>
+    <article class="card template"><h3>模板 C：小博主单条破圈雷达</h3><dl><div><dt>适用热点</dt><dd>粉丝几千到几万但单条过20w的账号。</dd></div><div><dt>视频结构</dt><dd>粉丝量 → 单条数据 → 爆点拆解 → 可复制选题。</dd></div><div><dt>标题公式</dt><dd>粉丝[数量]，这条AI音乐为什么能破[播放]？</dd></div><div><dt>复用原因</dt><dd>更容易发现新玩法，而不是只看老头部。</dd></div><div><dt>示例</dt><dd>粉丝2324，LLM联唱为什么能到26万？</dd></div></dl></article>
+  </section>
+  <footer>生成时间：2026-06-10 10:00（Asia/Shanghai）。本次无周一基线，报告仅为快照；下一个周一基线建立后再恢复周三对比。</footer>
+</main></body></html>

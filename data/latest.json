@@ -1,13 +1,13 @@
 {
-  "date": "2026-06-03",
+  "date": "2026-06-10",
   "title": "B站AI音乐爆款日报",
-  "summary": "周三对比报告缺少 2026-06-01 周一基线，本次退化为单次快照；近期重点追踪甜瓜主线和六大LLM联唱，小博主雷达优先。",
-  "reportUrl": "./reports/2026-06-03.html",
-  "dataUrl": "./data/2026-06-03.json",
+  "summary": "周三对比报告缺少 2026-06-08 周一基线，本次退化为单次快照；当前没有30天内发布且20w+的新视频，不做飙升判定。",
+  "reportUrl": "./reports/2026-06-10.html",
+  "dataUrl": "./data/2026-06-10.json",
   "kpis": {
-    "trackedVideos": 13,
-    "topView": "1154.7w",
-    "topShare": "14.95w",
-    "focus": "建立周一基线后再判断飙升"
+    "trackedVideos": 12,
+    "topView": "1155.6w",
+    "topShare": "12.13w",
+    "focus": "下周一重建基线，优先找30天内新视频"
   }
 }

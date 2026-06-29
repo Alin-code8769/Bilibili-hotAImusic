@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-06-24T10:04:02+08:00",
+  "updatedAt": "2026-06-29T10:01:33+08:00",
   "reports": [
+    {
+      "date": "2026-06-29",
+      "title": "B站AI音乐爆款监测",
+      "summary": "本次建立 2026-06-29 周一基线，共核验 58 条 20w+ 样本，其中 17 条为30天内发布的近期视频。周三将以本 JSON 为 baseline 计算同视频播放与互动增量；本次不判定明显飙升，只把近期高热样本标为新增观察。",
+      "reportUrl": "./reports/2026-06-29.html",
+      "dataUrl": "./data/2026-06-29.json",
+      "reportType": "周一基线报告",
+      "kpis": {
+        "trackedVideos": 58,
+        "newCandidates": 44,
+        "topView": "1270.3w",
+        "maxViewDelta": "周一基线，待周三计算",
+        "focus": "AI小曲/剧情梗歌曲化与近期AI声线翻唱"
+      }
+    },
     {
       "date": "2026-06-24",
       "title": "B站AI音乐爆款监测",

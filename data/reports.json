@@ -1,6 +1,21 @@
 {
-  "updatedAt": "2026-06-29T10:01:33+08:00",
+  "updatedAt": "2026-07-01T10:01:43+08:00",
   "reports": [
+    {
+      "date": "2026-07-01",
+      "title": "B站AI音乐爆款监测",
+      "summary": "本次以 2026-06-29 周一基线做同 BVID 对比，刷新后共核验 113 条 20w+ 样本，其中 4 条近期视频达到“明显飙升”阈值，最高增量为《当我企图驯服AI做视频》+94.6w。新增入池 56 条，集中在 AI判官/教育小曲、Funk循环和Suno现场感翻唱。",
+      "reportUrl": "./reports/2026-07-01.html",
+      "dataUrl": "./data/2026-07-01.json",
+      "reportType": "周三对比报告",
+      "kpis": {
+        "trackedVideos": 113,
+        "newCandidates": 56,
+        "topView": "1270.4w",
+        "maxViewDelta": "94.6w",
+        "focus": "AI工具/判官小曲与AI创作过程喜剧化"
+      }
+    },
     {
       "date": "2026-06-29",
       "title": "B站AI音乐爆款监测",

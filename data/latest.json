@@ -1,14 +1,14 @@
 {
-  "date": "2026-06-29",
-  "reportUrl": "./reports/2026-06-29.html",
-  "dataUrl": "./data/2026-06-29.json",
-  "title": "B站AI音乐爆款监测 2026-06-29",
-  "summary": "本次建立 2026-06-29 周一基线，共核验 58 条 20w+ 样本，其中 17 条为30天内发布的近期视频。周三将以本 JSON 为 baseline 计算同视频播放与互动增量；本次不判定明显飙升，只把近期高热样本标为新增观察。",
+  "date": "2026-07-01",
+  "reportUrl": "./reports/2026-07-01.html",
+  "dataUrl": "./data/2026-07-01.json",
+  "title": "B站AI音乐爆款监测 2026-07-01",
+  "summary": "本次以 2026-06-29 周一基线做同 BVID 对比，刷新后共核验 113 条 20w+ 样本，其中 4 条近期视频达到“明显飙升”阈值，最高增量为《当我企图驯服AI做视频》+94.6w。新增入池 56 条，集中在 AI判官/教育小曲、Funk循环和Suno现场感翻唱。",
   "kpis": {
-    "trackedVideos": 58,
-    "newCandidates": 44,
-    "topView": "1270.3w",
-    "maxViewDelta": "周一基线，待周三计算",
-    "focus": "AI小曲/剧情梗歌曲化与近期AI声线翻唱"
+    "trackedVideos": 113,
+    "newCandidates": 56,
+    "topView": "1270.4w",
+    "maxViewDelta": "94.6w",
+    "focus": "AI工具/判官小曲与AI创作过程喜剧化"
   }
 }
